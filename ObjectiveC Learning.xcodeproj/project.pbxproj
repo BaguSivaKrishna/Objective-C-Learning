@@ -1,0 +1,745 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		18E646317C1E25F71DD792BE /* Pods_ObjectiveC_LearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08DCC22BBBBED653D110B1 /* Pods_ObjectiveC_LearningTests.framework */; };
+		34984152E5B28EA656105378 /* Pods_ObjectiveC_LearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073A0941CC9E3FE288D03CB4 /* Pods_ObjectiveC_LearningUITests.framework */; };
+		B2FE63BC3D1501C9510C381E /* Pods_ObjectiveC_Learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174C3EC661E009992721BE17 /* Pods_ObjectiveC_Learning.framework */; };
+		F17E30B623BF7FC400EBC9D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E30B523BF7FC400EBC9D1 /* AppDelegate.m */; };
+		F17E30B923BF7FC400EBC9D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E30B823BF7FC400EBC9D1 /* ViewController.m */; };
+		F17E30BC23BF7FC400EBC9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17E30BA23BF7FC400EBC9D1 /* Main.storyboard */; };
+		F17E30BF23BF7FC400EBC9D1 /* ObjectiveC_Learning.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = F17E30BD23BF7FC400EBC9D1 /* ObjectiveC_Learning.xcdatamodeld */; };
+		F17E30C123BF7FC600EBC9D1 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = F17E30C023BF7FC600EBC9D1 /* Assets.xcassets */; };
+		F17E30C423BF7FC600EBC9D1 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17E30C223BF7FC600EBC9D1 /* LaunchScreen.storyboard */; };
+		F17E30C723BF7FC600EBC9D1 /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E30C623BF7FC600EBC9D1 /* main.m */; };
+		F17E30D123BF7FC600EBC9D1 /* ObjectiveC_LearningTests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E30D023BF7FC600EBC9D1 /* ObjectiveC_LearningTests.m */; };
+		F17E30DC23BF7FC600EBC9D1 /* ObjectiveC_LearningUITests.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E30DB23BF7FC600EBC9D1 /* ObjectiveC_LearningUITests.m */; };
+		F17E30ED23BF83DC00EBC9D1 /* PopularItems.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E30EC23BF83DC00EBC9D1 /* PopularItems.m */; };
+		F1CB468223BFA2700022E51D /* PopularItems.h in Sources */ = {isa = PBXBuildFile; fileRef = F17E30EB23BF828700EBC9D1 /* PopularItems.h */; };
+		F1CB468323BFA2700022E51D /* Popular.h in Sources */ = {isa = PBXBuildFile; fileRef = F1CB467F23BFA1670022E51D /* Popular.h */; };
+		F1CB468423BFA2BC0022E51D /* Popular.m in Sources */ = {isa = PBXBuildFile; fileRef = F1CB468023BFA1F00022E51D /* Popular.m */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		F17E30CD23BF7FC600EBC9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17E30A923BF7FC400EBC9D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F17E30B023BF7FC400EBC9D1;
+			remoteInfo = "ObjectiveC Learning";
+		};
+		F17E30D823BF7FC600EBC9D1 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = F17E30A923BF7FC400EBC9D1 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = F17E30B023BF7FC400EBC9D1;
+			remoteInfo = "ObjectiveC Learning";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		073A0941CC9E3FE288D03CB4 /* Pods_ObjectiveC_LearningUITests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveC_LearningUITests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		174C3EC661E009992721BE17 /* Pods_ObjectiveC_Learning.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveC_Learning.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		24785089148EFC815E9879AC /* Pods-ObjectiveC LearningTests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC LearningTests.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveC LearningTests/Pods-ObjectiveC LearningTests.release.xcconfig"; sourceTree = "<group>"; };
+		3F8EBDE49A561D76D4D9132C /* Pods-ObjectiveC Learning.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC Learning.debug.xcconfig"; path = "Target Support Files/Pods-ObjectiveC Learning/Pods-ObjectiveC Learning.debug.xcconfig"; sourceTree = "<group>"; };
+		4E0A9FE953B0CFF80F2C52DE /* Pods-ObjectiveC LearningTests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC LearningTests.debug.xcconfig"; path = "Target Support Files/Pods-ObjectiveC LearningTests/Pods-ObjectiveC LearningTests.debug.xcconfig"; sourceTree = "<group>"; };
+		B7E78AD1760E067DF7C9998F /* Pods-ObjectiveC LearningUITests.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC LearningUITests.debug.xcconfig"; path = "Target Support Files/Pods-ObjectiveC LearningUITests/Pods-ObjectiveC LearningUITests.debug.xcconfig"; sourceTree = "<group>"; };
+		C547CC8A5CAA85EB7CB47992 /* Pods-ObjectiveC LearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC LearningUITests.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveC LearningUITests/Pods-ObjectiveC LearningUITests.release.xcconfig"; sourceTree = "<group>"; };
+		DD08DCC22BBBBED653D110B1 /* Pods_ObjectiveC_LearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveC_LearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		EC5043772778C7C3E9777952 /* Pods-ObjectiveC Learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC Learning.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveC Learning/Pods-ObjectiveC Learning.release.xcconfig"; sourceTree = "<group>"; };
+		F17E30B123BF7FC400EBC9D1 /* ObjectiveC Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectiveC Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17E30B423BF7FC400EBC9D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		F17E30B523BF7FC400EBC9D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		F17E30B723BF7FC400EBC9D1 /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		F17E30B823BF7FC400EBC9D1 /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		F17E30BB23BF7FC400EBC9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		F17E30BE23BF7FC400EBC9D1 /* ObjectiveC_Learning.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = ObjectiveC_Learning.xcdatamodel; sourceTree = "<group>"; };
+		F17E30C023BF7FC600EBC9D1 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		F17E30C323BF7FC600EBC9D1 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		F17E30C523BF7FC600EBC9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17E30C623BF7FC600EBC9D1 /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		F17E30CC23BF7FC600EBC9D1 /* ObjectiveC LearningTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveC LearningTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17E30D023BF7FC600EBC9D1 /* ObjectiveC_LearningTests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC_LearningTests.m; sourceTree = "<group>"; };
+		F17E30D223BF7FC600EBC9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17E30D723BF7FC600EBC9D1 /* ObjectiveC LearningUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "ObjectiveC LearningUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		F17E30DB23BF7FC600EBC9D1 /* ObjectiveC_LearningUITests.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ObjectiveC_LearningUITests.m; sourceTree = "<group>"; };
+		F17E30DD23BF7FC600EBC9D1 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		F17E30EB23BF828700EBC9D1 /* PopularItems.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = PopularItems.h; sourceTree = "<group>"; };
+		F17E30EC23BF83DC00EBC9D1 /* PopularItems.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = PopularItems.m; sourceTree = "<group>"; };
+		F1CB467F23BFA1670022E51D /* Popular.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = Popular.h; sourceTree = "<group>"; };
+		F1CB468023BFA1F00022E51D /* Popular.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = Popular.m; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		F17E30AE23BF7FC400EBC9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B2FE63BC3D1501C9510C381E /* Pods_ObjectiveC_Learning.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17E30C923BF7FC600EBC9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				18E646317C1E25F71DD792BE /* Pods_ObjectiveC_LearningTests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17E30D423BF7FC600EBC9D1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				34984152E5B28EA656105378 /* Pods_ObjectiveC_LearningUITests.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		781CAED2F133C7C61F55A043 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				3F8EBDE49A561D76D4D9132C /* Pods-ObjectiveC Learning.debug.xcconfig */,
+				EC5043772778C7C3E9777952 /* Pods-ObjectiveC Learning.release.xcconfig */,
+				4E0A9FE953B0CFF80F2C52DE /* Pods-ObjectiveC LearningTests.debug.xcconfig */,
+				24785089148EFC815E9879AC /* Pods-ObjectiveC LearningTests.release.xcconfig */,
+				B7E78AD1760E067DF7C9998F /* Pods-ObjectiveC LearningUITests.debug.xcconfig */,
+				C547CC8A5CAA85EB7CB47992 /* Pods-ObjectiveC LearningUITests.release.xcconfig */,
+			);
+			path = Pods;
+			sourceTree = "<group>";
+		};
+		E708E799EF101BE414CD7D7F /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				174C3EC661E009992721BE17 /* Pods_ObjectiveC_Learning.framework */,
+				DD08DCC22BBBBED653D110B1 /* Pods_ObjectiveC_LearningTests.framework */,
+				073A0941CC9E3FE288D03CB4 /* Pods_ObjectiveC_LearningUITests.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		F17E30A823BF7FC400EBC9D1 = {
+			isa = PBXGroup;
+			children = (
+				F17E30B323BF7FC400EBC9D1 /* ObjectiveC Learning */,
+				F17E30CF23BF7FC600EBC9D1 /* ObjectiveC LearningTests */,
+				F17E30DA23BF7FC600EBC9D1 /* ObjectiveC LearningUITests */,
+				F17E30B223BF7FC400EBC9D1 /* Products */,
+				781CAED2F133C7C61F55A043 /* Pods */,
+				E708E799EF101BE414CD7D7F /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		F17E30B223BF7FC400EBC9D1 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				F17E30B123BF7FC400EBC9D1 /* ObjectiveC Learning.app */,
+				F17E30CC23BF7FC600EBC9D1 /* ObjectiveC LearningTests.xctest */,
+				F17E30D723BF7FC600EBC9D1 /* ObjectiveC LearningUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		F17E30B323BF7FC400EBC9D1 /* ObjectiveC Learning */ = {
+			isa = PBXGroup;
+			children = (
+				F17E30E923BF815F00EBC9D1 /* popular */,
+				F17E30B423BF7FC400EBC9D1 /* AppDelegate.h */,
+				F17E30B523BF7FC400EBC9D1 /* AppDelegate.m */,
+				F17E30B723BF7FC400EBC9D1 /* ViewController.h */,
+				F17E30B823BF7FC400EBC9D1 /* ViewController.m */,
+				F17E30BA23BF7FC400EBC9D1 /* Main.storyboard */,
+				F17E30C023BF7FC600EBC9D1 /* Assets.xcassets */,
+				F17E30C223BF7FC600EBC9D1 /* LaunchScreen.storyboard */,
+				F17E30C523BF7FC600EBC9D1 /* Info.plist */,
+				F17E30C623BF7FC600EBC9D1 /* main.m */,
+				F17E30BD23BF7FC400EBC9D1 /* ObjectiveC_Learning.xcdatamodeld */,
+			);
+			path = "ObjectiveC Learning";
+			sourceTree = "<group>";
+		};
+		F17E30CF23BF7FC600EBC9D1 /* ObjectiveC LearningTests */ = {
+			isa = PBXGroup;
+			children = (
+				F17E30D023BF7FC600EBC9D1 /* ObjectiveC_LearningTests.m */,
+				F17E30D223BF7FC600EBC9D1 /* Info.plist */,
+			);
+			path = "ObjectiveC LearningTests";
+			sourceTree = "<group>";
+		};
+		F17E30DA23BF7FC600EBC9D1 /* ObjectiveC LearningUITests */ = {
+			isa = PBXGroup;
+			children = (
+				F17E30DB23BF7FC600EBC9D1 /* ObjectiveC_LearningUITests.m */,
+				F17E30DD23BF7FC600EBC9D1 /* Info.plist */,
+			);
+			path = "ObjectiveC LearningUITests";
+			sourceTree = "<group>";
+		};
+		F17E30E923BF815F00EBC9D1 /* popular */ = {
+			isa = PBXGroup;
+			children = (
+				F17E30EA23BF818600EBC9D1 /* model */,
+			);
+			path = popular;
+			sourceTree = "<group>";
+		};
+		F17E30EA23BF818600EBC9D1 /* model */ = {
+			isa = PBXGroup;
+			children = (
+				F17E30EB23BF828700EBC9D1 /* PopularItems.h */,
+				F17E30EC23BF83DC00EBC9D1 /* PopularItems.m */,
+				F1CB467F23BFA1670022E51D /* Popular.h */,
+				F1CB468023BFA1F00022E51D /* Popular.m */,
+			);
+			path = model;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		F17E30B023BF7FC400EBC9D1 /* ObjectiveC Learning */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17E30E023BF7FC600EBC9D1 /* Build configuration list for PBXNativeTarget "ObjectiveC Learning" */;
+			buildPhases = (
+				DFBC16027446C1816CB571B0 /* [CP] Check Pods Manifest.lock */,
+				F17E30AD23BF7FC400EBC9D1 /* Sources */,
+				F17E30AE23BF7FC400EBC9D1 /* Frameworks */,
+				F17E30AF23BF7FC400EBC9D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "ObjectiveC Learning";
+			productName = "ObjectiveC Learning";
+			productReference = F17E30B123BF7FC400EBC9D1 /* ObjectiveC Learning.app */;
+			productType = "com.apple.product-type.application";
+		};
+		F17E30CB23BF7FC600EBC9D1 /* ObjectiveC LearningTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17E30E323BF7FC600EBC9D1 /* Build configuration list for PBXNativeTarget "ObjectiveC LearningTests" */;
+			buildPhases = (
+				9A98CD9CD3C48CC8EDF61227 /* [CP] Check Pods Manifest.lock */,
+				F17E30C823BF7FC600EBC9D1 /* Sources */,
+				F17E30C923BF7FC600EBC9D1 /* Frameworks */,
+				F17E30CA23BF7FC600EBC9D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17E30CE23BF7FC600EBC9D1 /* PBXTargetDependency */,
+			);
+			name = "ObjectiveC LearningTests";
+			productName = "ObjectiveC LearningTests";
+			productReference = F17E30CC23BF7FC600EBC9D1 /* ObjectiveC LearningTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		F17E30D623BF7FC600EBC9D1 /* ObjectiveC LearningUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = F17E30E623BF7FC600EBC9D1 /* Build configuration list for PBXNativeTarget "ObjectiveC LearningUITests" */;
+			buildPhases = (
+				C4E0F58D9D3F5D56DA2D0232 /* [CP] Check Pods Manifest.lock */,
+				F17E30D323BF7FC600EBC9D1 /* Sources */,
+				F17E30D423BF7FC600EBC9D1 /* Frameworks */,
+				F17E30D523BF7FC600EBC9D1 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				F17E30D923BF7FC600EBC9D1 /* PBXTargetDependency */,
+			);
+			name = "ObjectiveC LearningUITests";
+			productName = "ObjectiveC LearningUITests";
+			productReference = F17E30D723BF7FC600EBC9D1 /* ObjectiveC LearningUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		F17E30A923BF7FC400EBC9D1 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1030;
+				ORGANIZATIONNAME = Square;
+				TargetAttributes = {
+					F17E30B023BF7FC400EBC9D1 = {
+						CreatedOnToolsVersion = 10.3;
+					};
+					F17E30CB23BF7FC600EBC9D1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F17E30B023BF7FC400EBC9D1;
+					};
+					F17E30D623BF7FC600EBC9D1 = {
+						CreatedOnToolsVersion = 10.3;
+						TestTargetID = F17E30B023BF7FC400EBC9D1;
+					};
+				};
+			};
+			buildConfigurationList = F17E30AC23BF7FC400EBC9D1 /* Build configuration list for PBXProject "ObjectiveC Learning" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = F17E30A823BF7FC400EBC9D1;
+			productRefGroup = F17E30B223BF7FC400EBC9D1 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				F17E30B023BF7FC400EBC9D1 /* ObjectiveC Learning */,
+				F17E30CB23BF7FC600EBC9D1 /* ObjectiveC LearningTests */,
+				F17E30D623BF7FC600EBC9D1 /* ObjectiveC LearningUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		F17E30AF23BF7FC400EBC9D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17E30C423BF7FC600EBC9D1 /* LaunchScreen.storyboard in Resources */,
+				F17E30C123BF7FC600EBC9D1 /* Assets.xcassets in Resources */,
+				F17E30BC23BF7FC400EBC9D1 /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17E30CA23BF7FC600EBC9D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17E30D523BF7FC600EBC9D1 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		9A98CD9CD3C48CC8EDF61227 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectiveC LearningTests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		C4E0F58D9D3F5D56DA2D0232 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectiveC LearningUITests-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+		DFBC16027446C1816CB571B0 /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputFileListPaths = (
+			);
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-ObjectiveC Learning-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		F17E30AD23BF7FC400EBC9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F1CB468223BFA2700022E51D /* PopularItems.h in Sources */,
+				F1CB468323BFA2700022E51D /* Popular.h in Sources */,
+				F17E30B923BF7FC400EBC9D1 /* ViewController.m in Sources */,
+				F17E30BF23BF7FC400EBC9D1 /* ObjectiveC_Learning.xcdatamodeld in Sources */,
+				F17E30ED23BF83DC00EBC9D1 /* PopularItems.m in Sources */,
+				F17E30C723BF7FC600EBC9D1 /* main.m in Sources */,
+				F17E30B623BF7FC400EBC9D1 /* AppDelegate.m in Sources */,
+				F1CB468423BFA2BC0022E51D /* Popular.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17E30C823BF7FC600EBC9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17E30D123BF7FC600EBC9D1 /* ObjectiveC_LearningTests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		F17E30D323BF7FC600EBC9D1 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				F17E30DC23BF7FC600EBC9D1 /* ObjectiveC_LearningUITests.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		F17E30CE23BF7FC600EBC9D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F17E30B023BF7FC400EBC9D1 /* ObjectiveC Learning */;
+			targetProxy = F17E30CD23BF7FC600EBC9D1 /* PBXContainerItemProxy */;
+		};
+		F17E30D923BF7FC600EBC9D1 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = F17E30B023BF7FC400EBC9D1 /* ObjectiveC Learning */;
+			targetProxy = F17E30D823BF7FC600EBC9D1 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		F17E30BA23BF7FC400EBC9D1 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17E30BB23BF7FC400EBC9D1 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		F17E30C223BF7FC600EBC9D1 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				F17E30C323BF7FC600EBC9D1 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		F17E30DE23BF7FC600EBC9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		F17E30DF23BF7FC600EBC9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		F17E30E123BF7FC600EBC9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3F8EBDE49A561D76D4D9132C /* Pods-ObjectiveC Learning.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectiveC Learning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sivakrishna.square.ObjectiveC-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		F17E30E223BF7FC600EBC9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = EC5043772778C7C3E9777952 /* Pods-ObjectiveC Learning.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectiveC Learning/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sivakrishna.square.ObjectiveC-Learning";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		F17E30E423BF7FC600EBC9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4E0A9FE953B0CFF80F2C52DE /* Pods-ObjectiveC LearningTests.debug.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectiveC LearningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sivakrishna.square.ObjectiveC-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveC Learning.app/ObjectiveC Learning";
+			};
+			name = Debug;
+		};
+		F17E30E523BF7FC600EBC9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 24785089148EFC815E9879AC /* Pods-ObjectiveC LearningTests.release.xcconfig */;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectiveC LearningTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sivakrishna.square.ObjectiveC-LearningTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/ObjectiveC Learning.app/ObjectiveC Learning";
+			};
+			name = Release;
+		};
+		F17E30E723BF7FC600EBC9D1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = B7E78AD1760E067DF7C9998F /* Pods-ObjectiveC LearningUITests.debug.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectiveC LearningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sivakrishna.square.ObjectiveC-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ObjectiveC Learning";
+			};
+			name = Debug;
+		};
+		F17E30E823BF7FC600EBC9D1 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = C547CC8A5CAA85EB7CB47992 /* Pods-ObjectiveC LearningUITests.release.xcconfig */;
+			buildSettings = {
+				CODE_SIGN_STYLE = Automatic;
+				INFOPLIST_FILE = "ObjectiveC LearningUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@loader_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "sivakrishna.square.ObjectiveC-LearningUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+				TEST_TARGET_NAME = "ObjectiveC Learning";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		F17E30AC23BF7FC400EBC9D1 /* Build configuration list for PBXProject "ObjectiveC Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17E30DE23BF7FC600EBC9D1 /* Debug */,
+				F17E30DF23BF7FC600EBC9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17E30E023BF7FC600EBC9D1 /* Build configuration list for PBXNativeTarget "ObjectiveC Learning" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17E30E123BF7FC600EBC9D1 /* Debug */,
+				F17E30E223BF7FC600EBC9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17E30E323BF7FC600EBC9D1 /* Build configuration list for PBXNativeTarget "ObjectiveC LearningTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17E30E423BF7FC600EBC9D1 /* Debug */,
+				F17E30E523BF7FC600EBC9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		F17E30E623BF7FC600EBC9D1 /* Build configuration list for PBXNativeTarget "ObjectiveC LearningUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F17E30E723BF7FC600EBC9D1 /* Debug */,
+				F17E30E823BF7FC600EBC9D1 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		F17E30BD23BF7FC400EBC9D1 /* ObjectiveC_Learning.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				F17E30BE23BF7FC400EBC9D1 /* ObjectiveC_Learning.xcdatamodel */,
+			);
+			currentVersion = F17E30BE23BF7FC400EBC9D1 /* ObjectiveC_Learning.xcdatamodel */;
+			path = ObjectiveC_Learning.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = F17E30A923BF7FC400EBC9D1 /* Project object */;
+}

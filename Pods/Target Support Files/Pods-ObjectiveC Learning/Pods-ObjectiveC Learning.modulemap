@@ -1,0 +1,6 @@
+framework module Pods_ObjectiveC_Learning {
+  umbrella header "Pods-ObjectiveC Learning-umbrella.h"
+
+  export *
+  module * { export * }
+}
