@@ -40,7 +40,7 @@
             NSLog(@"%@",dis);
         }
 
-        
+        NSLog(@"%@", array);
         
 //        PopularItems *items = json[@"popular"];
        
