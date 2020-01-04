@@ -2,13 +2,15 @@
 # platform :ios, '9.0'
 
 target 'ObjectiveC Learning' do
+  
   # Comment the next line if you don't want to use dynamic frameworks
   use_frameworks!
-
+  pod 'AFNetworking', '~> 3.0'
   # Pods for ObjectiveC Learning
 
   target 'ObjectiveC LearningTests' do
     inherit! :search_paths
+#    pod 'AFNetworking', '~> 3.0
     # Pods for testing
   end
 

@@ -9,11 +9,15 @@
 #import "ViewController.h"
 #import "popular/model/Popular.h"
 #import "popular/model/PopularItems.h"
+#import "api/AFNetworkApi.h"
 @interface ViewController ()
+
+
 
 @end
 
 @implementation ViewController
+    @synthesize networkingApi;
 
 - (void)viewDidLoad {
     [super viewDidLoad];
@@ -26,28 +30,35 @@
     NSMutableArray<Popular *> *items = [NSMutableArray new];
     NSString *urlString = @"https://jsonblob.com/api/jsonBlob/68ba0561-2e34-11ea-ac3c-690027252e7a";
     
-    NSURL *url = [NSURL URLWithString:urlString];
-    NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:url];
-    [urlRequest setHTTPMethod:@"GET"];
-    NSURLSession *session = [NSURLSession sharedSession];
-    NSURLSessionDataTask *task = [session dataTaskWithRequest:urlRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
-        
-        
-        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
-        NSMutableArray<NSDictionary*> *array = [json valueForKey:@"popular"];
-        for( NSDictionary *dis in array) {
-//            NSDictionary *diss = [NSDictionary w
-            NSLog(@"%@",dis);
-        }
-
-        NSLog(@"%@", array);
-        
-//        PopularItems *items = json[@"popular"];
-       
-        
-        
+    [networkingApi getPopularItems:urlString WithCallback:^(NSData *data) {
+        NSLog(@"Response: %@", data);
     }];
-    [task resume];
+//    [_networkingApi getPopularItems:urlString];
+    
+    
+    
+//    NSURL *url = [NSURL URLWithString:urlString];
+//    NSMutableURLRequest *urlRequest = [NSMutableURLRequest requestWithURL:url];
+//    [urlRequest setHTTPMethod:@"GET"];
+//    NSURLSession *session = [NSURLSession sharedSession];
+//    NSURLSessionDataTask *task = [session dataTaskWithRequest:urlRequest completionHandler:^(NSData * _Nullable data, NSURLResponse * _Nullable response, NSError * _Nullable error) {
+//
+//
+//        NSDictionary *json = [NSJSONSerialization JSONObjectWithData:data options:NSJSONReadingAllowFragments error:&error];
+//        NSMutableArray<NSDictionary*> *array = [json valueForKey:@"popular"];
+//        for( NSDictionary *dis in array) {
+////            NSDictionary *diss = [NSDictionary w
+//            NSLog(@"%@",dis);
+//        }
+//
+//        NSLog(@"%@", array);
+//
+////        PopularItems *items = json[@"popular"];
+//
+//
+//
+//    }];
+//    [task resume];
     
     
     

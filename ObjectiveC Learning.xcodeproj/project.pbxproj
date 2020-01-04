@@ -3,13 +3,14 @@
 	archiveVersion = 1;
 	classes = {
 	};
-	objectVersion = 50;
+	objectVersion = 51;
 	objects = {
 
 /* Begin PBXBuildFile section */
 		18E646317C1E25F71DD792BE /* Pods_ObjectiveC_LearningTests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = DD08DCC22BBBBED653D110B1 /* Pods_ObjectiveC_LearningTests.framework */; };
 		34984152E5B28EA656105378 /* Pods_ObjectiveC_LearningUITests.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 073A0941CC9E3FE288D03CB4 /* Pods_ObjectiveC_LearningUITests.framework */; };
 		B2FE63BC3D1501C9510C381E /* Pods_ObjectiveC_Learning.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 174C3EC661E009992721BE17 /* Pods_ObjectiveC_Learning.framework */; };
+		F12FBED423C0A32900E8AB6A /* AFNetworkApi.m in Sources */ = {isa = PBXBuildFile; fileRef = F12FBED323C0A32900E8AB6A /* AFNetworkApi.m */; };
 		F17E30B623BF7FC400EBC9D1 /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E30B523BF7FC400EBC9D1 /* AppDelegate.m */; };
 		F17E30B923BF7FC400EBC9D1 /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = F17E30B823BF7FC400EBC9D1 /* ViewController.m */; };
 		F17E30BC23BF7FC400EBC9D1 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = F17E30BA23BF7FC400EBC9D1 /* Main.storyboard */; };
@@ -52,6 +53,8 @@
 		C547CC8A5CAA85EB7CB47992 /* Pods-ObjectiveC LearningUITests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC LearningUITests.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveC LearningUITests/Pods-ObjectiveC LearningUITests.release.xcconfig"; sourceTree = "<group>"; };
 		DD08DCC22BBBBED653D110B1 /* Pods_ObjectiveC_LearningTests.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_ObjectiveC_LearningTests.framework; sourceTree = BUILT_PRODUCTS_DIR; };
 		EC5043772778C7C3E9777952 /* Pods-ObjectiveC Learning.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-ObjectiveC Learning.release.xcconfig"; path = "Target Support Files/Pods-ObjectiveC Learning/Pods-ObjectiveC Learning.release.xcconfig"; sourceTree = "<group>"; };
+		F12FBED323C0A32900E8AB6A /* AFNetworkApi.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AFNetworkApi.m; sourceTree = "<group>"; };
+		F12FBED523C0A35400E8AB6A /* AFNetworkApi.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AFNetworkApi.h; sourceTree = "<group>"; };
 		F17E30B123BF7FC400EBC9D1 /* ObjectiveC Learning.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "ObjectiveC Learning.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		F17E30B423BF7FC400EBC9D1 /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
 		F17E30B523BF7FC400EBC9D1 /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
@@ -126,6 +129,15 @@
 			name = Frameworks;
 			sourceTree = "<group>";
 		};
+		F12FBED123C0A2EC00E8AB6A /* api */ = {
+			isa = PBXGroup;
+			children = (
+				F12FBED323C0A32900E8AB6A /* AFNetworkApi.m */,
+				F12FBED523C0A35400E8AB6A /* AFNetworkApi.h */,
+			);
+			path = api;
+			sourceTree = "<group>";
+		};
 		F17E30A823BF7FC400EBC9D1 = {
 			isa = PBXGroup;
 			children = (
@@ -151,6 +163,7 @@
 		F17E30B323BF7FC400EBC9D1 /* ObjectiveC Learning */ = {
 			isa = PBXGroup;
 			children = (
+				F12FBED123C0A2EC00E8AB6A /* api */,
 				F17E30E923BF815F00EBC9D1 /* popular */,
 				F17E30B423BF7FC400EBC9D1 /* AppDelegate.h */,
 				F17E30B523BF7FC400EBC9D1 /* AppDelegate.m */,
@@ -214,6 +227,7 @@
 				F17E30AD23BF7FC400EBC9D1 /* Sources */,
 				F17E30AE23BF7FC400EBC9D1 /* Frameworks */,
 				F17E30AF23BF7FC400EBC9D1 /* Resources */,
+				861A25CB59AFE02A0B8177F5 /* [CP] Embed Pods Frameworks */,
 			);
 			buildRules = (
 			);
@@ -332,6 +346,23 @@
 /* End PBXResourcesBuildPhase section */
 
 /* Begin PBXShellScriptBuildPhase section */
+		861A25CB59AFE02A0B8177F5 /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectiveC Learning/Pods-ObjectiveC Learning-frameworks-${CONFIGURATION}-input-files.xcfilelist",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputFileListPaths = (
+				"${PODS_ROOT}/Target Support Files/Pods-ObjectiveC Learning/Pods-ObjectiveC Learning-frameworks-${CONFIGURATION}-output-files.xcfilelist",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${PODS_ROOT}/Target Support Files/Pods-ObjectiveC Learning/Pods-ObjectiveC Learning-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
 		9A98CD9CD3C48CC8EDF61227 /* [CP] Check Pods Manifest.lock */ = {
 			isa = PBXShellScriptBuildPhase;
 			buildActionMask = 2147483647;
@@ -409,6 +440,7 @@
 				F1CB468323BFA2700022E51D /* Popular.h in Sources */,
 				F17E30B923BF7FC400EBC9D1 /* ViewController.m in Sources */,
 				F17E30BF23BF7FC400EBC9D1 /* ObjectiveC_Learning.xcdatamodeld in Sources */,
+				F12FBED423C0A32900E8AB6A /* AFNetworkApi.m in Sources */,
 				F17E30ED23BF83DC00EBC9D1 /* PopularItems.m in Sources */,
 				F17E30C723BF7FC600EBC9D1 /* main.m in Sources */,
 				F17E30B623BF7FC400EBC9D1 /* AppDelegate.m in Sources */,

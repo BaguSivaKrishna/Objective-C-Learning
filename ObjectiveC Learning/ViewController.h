@@ -7,9 +7,11 @@
 //
 
 #import <UIKit/UIKit.h>
+#import "api/AFNetworkApi.h"
 
 @interface ViewController : UIViewController
 
-
+    @property(nonatomic, copy) AFNetworkApi *networkingApi;
 @end
+
 
